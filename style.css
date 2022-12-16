@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.main {
+    width: 100%;    
+}
+
+
+.social_media {
+    width: fit-content;
+    margin: 0 60px;
+}   
+.social_media a {
+    color: black;
+    font-size: 25px;
+    margin: 0px 50px 0px 0px;
+    transition: 0.3s;
+}
+.fa-github {
+    margin-top: 50px;
+}
+
+
+.social_media a:hover{
+    color: rgb(199, 91, 91);
+}
+
+.head {
+    width: 100%;
+    height: 68px;
+    background-color: black;
+    position: fixed;
+}
+
+/* .head .head1 {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: red; */
+    /* position: fixed; */
+*/
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+} 
+nav{
+display: flex;
+height: 100%;
+margin: 0 auto;
+width: 70%;
+background: black;
+align-items: center;
+justify-content: space-between;
+padding: 0 50px 0 100px;
+flex-wrap: wrap;
+}
+nav .logo{
+color: #fff;
+font-size: 35px;
+font-weight: 600;
+}
+nav ul{
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+}
+nav ul li{
+margin: 0 5px;
+}
+nav ul li a{
+color: #f2f2f2;
+text-decoration: none;
+font-size: 18px;
+font-weight: 500;
+padding: 8px 15px;
+border-radius: 5px;
+letter-spacing: 1px;
+transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover{
+color: #111;
+background: #fff;
+}
+nav .menu-btn i{
+color: #fff;
+font-size: 22px;
+cursor: pointer;
+display: none;
+}
+input[type="checkbox"]{
+display: none;
+}
+@media (max-width: 1000px){
+nav{
+    padding: 0 40px 0 50px;
+}
+}
+@media (max-width: 920px) {
+nav .menu-btn i{
+    display: block;
+}
+#click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+}
+nav ul{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #111;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+}
+#click:checked ~ ul{
+    left: 0;
+}
+nav ul li{
+    width: 100%;
+    margin: 40px 0;
+}
+nav ul li a{
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+#click:checked ~ ul li a{
+    margin-left: 0px;
+}
+nav ul li a.active,
+nav ul li a:hover{
+    background: none;
+    color: cyan;
+}
+}
+
+.head .head1 .logos {
+    float: left;
+    width: fit-content;
+    /* background-color: blue; */
+
+}
+
+.head .head1 h1 {
+    font-family: "Sofia", sans-serif;
+    color:aqua;
+    font-size: 40px;
+    margin-top: 6px;
+    /* text-shadow: 1px 1px red; */
+    cursor: pointer;
+
+    
+}
+
+
+
+.head .head1 .pages {
+    float: right;
+    /* display: inline; */
+    /* height: 100%; */
+    padding-bottom: 10px;
+    /* background-color: wheat; */
+    /* height: 100%; */
+    margin-top: 20px;
+}
+
+.head .head1 .pages ul li {
+    display: inline;
+    padding-left: 25px;
+}
+
+
+.ho {
+    color: aqua;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.head .head1 .pages ul li .ab{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.head .head1 .pages ul li .co {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.head .head1 .pages ul li a:hover {
+    color: aqua;
+}
+
+
+.home {
+    background-image: url("pic/images1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #1a1d1e; */
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.home .rghit {
+    justify-content: center;
+    /* float: ; */
+    padding: 250px 0px 0px 60px;
+    width: 660px;
+    /* background-color: red; */
+
+}
+
+.home .rghit h1 {
+    color: aqua;
+    font-weight:700;
+    text-align: left;
+    text-shadow: red 1px 1px;
+    font-size: 40px;
+    /* background-color: ; */
+    
+}
+
+.home .rghit h1 br {
+    display: none;
+}
+
+#shadow {
+    letter-spacing: 1px;
+    color: aqua(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 0px 0px 5px, rgb(255, 255, 255) 0px 0px 10px, rgb(255, 255, 255) 0px 0px 15px, rgb(73, 255, 24) 0px 0px 20px, rgb(73, 255, 24) 0px 0px 30px, rgb(73, 255, 24) 0px 0px 40px, rgb(73, 255, 24) 0px 0px 55px, rgb(73, 255, 24) 0px 0px 75px;
+    --darkreader-inline-color: #e8e6e3;
+    --darkreader-inline-bgimage: initial;
+    --darkreader-inline-bgcolor: #1a1d1e;
+}
+
+.about-me {
+    width: 100%;
+    height: 660px;
+    /* background-color: #1a1d1e; */
+    background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("pic/images.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-me h1 {
+    color: white;
+    padding-bottom: 5px;
+    border-bottom: white solid 3px;
+    width: fit-content;
+    padding-top: 80px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.about-me img {
+    height: 200px;
+    width: 200px;
+    /* padding-top: 30px; */
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-top: 30px;
+
+}
+
+.about-me p {
+    color: white;
+    /* background-color: black; */
+    /* width:max-content; */
+    text-align: center;
+    justify-content: center;
+    word-spacing: 2px;
+    padding-top: 50px;
+}
+
+.about-me h5 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 16px;
+    font-weight: 700;
+    font-family: 'Rubik Spray Paint', cursive;
+}
+
+.contact {
+    width: 100%;
+    height: 500px;
+    background-color: #898989;
+    display: inline-flex;
+}
+
+
+
+.contact1 {
+    width: 50%;
+    float: right;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.contact1 form {
+    float: right;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+
+.contact1 h3 {
+    color: #555;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 25px;
+    /* text-align: center; */
+
+}
+
+.contact1 form input, .contact1 form textarea {
+    border: 0%;
+    margin: 10px 0;
+    font-size: 16px;
+    padding: 10px;
+    outline: none;
+    background-color: #f5f5f5;
+    width: 80%;
+    border: black 1px solid;
+    border-radius: 10px;
+}
+
+#email  {
+    width: 45%;
+}
+#name {
+    width: 30%;
+}
+.contact1 form button {
+    padding: 15px;
+    background-color: aqua;
+    width: 40%;
+    height: auto;
+    border-radius: 30px;
+    /* outline: none; */
+    border: black 1px solid;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact1 form button:hover {
+    background-color: rgb(75, 167, 167);
+    color: white;
+}
+.my_acc {
+    width: 50%;
+    padding: 160px 0;
+    margin-left: 100px;
+
+}   
+.my_acc a {
+    color: black;
+    font-size: 25px;
+    margin: 0px 50px 0px 0px;
+    transition: 0.3s;
+}
+.fa-github {
+    margin-top: 50px;
+}
+
+
+.my_acc a:hover{
+    color: rgb(199, 91, 91);
+}
+
+.my_acc h3 {
+    color: aqua;
+    font-size: 25px;
+}
+
+.mytools {
+    height: 700px;
+    width: 100%;
+    background-image: url("pic/program.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 70px;
+}
+
+.mytools h1 {
+    color: white;
+    /* margin: 0 auto; */
+    text-align: center;
+    /* padding-top: 70px; */
+    cursor: pointer;
+    padding-bottom: 25px;
+}
+
+.mytools .tools-imgs {
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.mytools .tools-imgs .tool1 {
+    width: 40%;
+    height: 70%;
+    margin-left: 100px;
+    margin-right: 30px;
+    border: black 2px solid;
+    background-image: url("pic/program.jpeg");
+}
+
+.mytools .tools-imgs .tool2 {
+    width: 40%;
+    height: 70%;
+    margin-right: 100px;
+    background-image: url("pic/program.jpeg");
+
+    border: black 2px solid;
+    margin-left: 30px;
+}
+
+.mytools .tools-imgs .tool1 h3 , .mytools .tools-imgs .tool2 h3{
+    color: aqua;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.mytools .tools-imgs .tool1 img , .mytools .tools-imgs .tool2 img {
+    width: 90%;
+    padding: 0 20px;
+    height: 70%;
+}
+
+.mytools .tools-imgs .tool1 a , .mytools .tools-imgs .tool2 a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+    display: block;
+    text-align: 25px;
+    padding: 25px;
+    transition: 0.3s;
+    background-color: #3e4f55;
+    border-radius: 50px;
+}
+
+.mytools .tools-imgs .tool1 a:hover , .mytools .tools-imgs .tool2 a:hover {
+    background-color: #728a92;
+    color: #1a1d1e;
+    border-radius: 50px;
+}
+
+
+
+@media (max-width: 700px) {
+    .home .rghit {
+        justify-content: center;
+        padding: 250px 0px 0px 60px;
+        width: 300px;    
+    }
+
+    .home .rghit h1 {
+        color: aqua;
+        font-weight:100;
+        text-align: left;
+        text-shadow: red 1px 1px;
+        font-size: 30px;
+    }
+    .home .rghit h1 br {
+        display: block;
+    }
+
+    .home {
+        background-image: url("pic/images1.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-color: #1a1d1e; */
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .head .head1 .logos {
+        width: 50%;
+        /* background-color: red; */
+        margin: 0 auto;
+    }
+    
+    .head .head1 h1 {
+        text-align: center;
+        font-family: "Sofia", sans-serif;
+        color:aqua;
+        font-size: 40px;
+        margin-top: 6px;
+        cursor: pointer;
+    }
+
+    .mytools {
+        height: 700px;
+        width: 100%;
+        background-image: url("pic/program.jpeg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top: 30px;
+    }
+
+
+    .mytools h1 {
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        padding-bottom: 15px;
+    }
+
+    .mytools .tools-imgs {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .mytools .tools-imgs .tool1 {
+        width: 90%;
+        height: 30%;
+        border: black 2px solid;
+        background-image: url("pic/program.jpeg");
+        margin-bottom: 100px;
+        margin: 10px 20px 100px;
+    }
+
+    .mytools .tools-imgs .tool2 {
+        width: 90%;
+        height: 30%;
+        border: black 2px solid;
+        background-image: url("pic/program.jpeg");
+        /* padding-top: 180px; */
+        margin: 0 20px;
+
+    }
+
+    .mytools .tools-imgs .tool1 h3 , .mytools .tools-imgs .tool2 h3{
+        color: aqua;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .mytools .tools-imgs .tool1 img , .mytools .tools-imgs .tool2 img {
+        width: 90%;
+        padding: 0 20px;
+        height: 80%;
+    }
+
+    .mytools .tools-imgs .tool1 a , .mytools .tools-imgs .tool2 a {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        margin: 0 auto;
+        width: fit-content;
+        display: block;
+        text-align: 25px;
+        padding: 25px;
+        transition: 0.3s;
+        background-color: #3e4f55;
+        border-radius: 50px;
+    }
+
+    .contact {
+        width: 100%;
+        /* margin: 0 30px; */
+        height: 700px;
+        background-color: #898989;
+        display: block;
+    }
+    
+    
+    
+    .contact1 {
+        width: 100%;
+        padding-left: 100px;
+        height: 50%;
+    }
+    
+    .contact1 form {
+        width: 100%;
+        margin-top: 10px;
+
+    }
+    
+    
+    
+    .contact1 h3 {
+        color: #555;
+        font-weight: 700;
+        margin-bottom: 10px;
+        font-size: 25px;
+        margin-left: 30px;
+    
+    }
+    #name {
+        width: 80%;
+    }
+    #email {
+        width: 80%;
+    }
+    .contact1 form input, .contact1 form textarea {
+        border: 0%;
+        margin: 10px 0;
+        margin-left: 30px;
+        font-size: 16px;
+        padding: 10px;
+        outline: none;
+        background-color: #f5f5f5;
+        width: 80%;
+        border: black 1px solid;
+        border-radius: 10px;
+    }
+    
+    
+    .contact1 form button {
+        padding: 15px;
+        background-color: aqua;
+        width: 40%;
+        height: auto;
+        border-radius: 30px;
+        /* outline: none; */
+        border: black 1px solid;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-left: 30px;
+
+    }
+
+    .my_acc {
+        width: 100%;
+        height: 50%;
+        margin: 0 30px;
+
+    }   
+    .my_acc a {
+        color: black;
+        font-size: 25px;
+        margin: 0px 50px 0px 0px;
+        transition: 0.3s;
+    }
+    
+    
+    
+    .my_acc h3 {
+        color: aqua;
+        font-size: 25px;
+        padding-top: 350px;
+    }
+}
