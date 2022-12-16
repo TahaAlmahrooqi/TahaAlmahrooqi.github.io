@@ -7,28 +7,43 @@
     <title>Taha</title>
     <link rel="icon" href="logo.jpg">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTGQ34JF5D"></script>
+
 </head>
 <body>
     <div class="main">
         <div class="head">
-            <nav class="head1">
+            <div class="head1">
                 <div class="logos">
                     <h1>BB2.L</h1>
                 </div>
-                <input type="checkbox" id="click">
-                <label for="click" class="menu-btn">
-                <i class="fas fa-bars"></i>
-                </label>
-                <ul>
-                    <li><a class="active" href="#home">Home</a></li>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#MyTools">My Tools</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+                <div class="topnav" id="myTopnav">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#about">About Me</a>
+                    <a href="#MyTools">My Tools</a>
+                    <a href="#contact">Contact</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+                </div>
+                <script>
+                    function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                    x.className += " responsive";
+                    } else {
+                    x.className = "topnav";
+                    }
+                    }
+                </script>
+                <div class="pages">
+                    <ul>
+                        <li><a href="#home" class="ho">Home</a></li>
+                        <li><a href="#about" class="ab">About Me</a></li>
+                        <li><a href="#MyTools" class="co">My Tools</a></li>
+                        <li><a href="#contact" class="co">Contact</a></li>
+                    </ul>
+                </div>
+                
             </div>
         </div>
         <div class="home" id="home">
@@ -47,7 +62,7 @@
             </div>
             <div class="social_media">
                 <a href="https://youtube.com/@cybero2633" class="fa fa-youtube" id="shadow"></a>
-                <a href="https://instagram.com/bb2.l" id="shadow"><i class="fa fa-instagram"></i></a>
+                <a href="https://test/bb2.l" id="shadow"><i class="fa fa-instagram"></i></a>
                 <a href="mailto:almahrooqi5789@gmail.com" id="shadow"><i class="fa fa-google"></i></a>
                 <a href="https://github.com/TahaAlmahrooqi"><i class="fa fa-github" id="shadow"></i></a>
             </div>
@@ -96,7 +111,7 @@
             <div class="my_acc">
                 <h3>My Accounts</h3>
                 <a href="https://youtube.com/@cybero2633" class="fa fa-youtube" id="shadow"></a>
-                <a href="https://instagram.com/bb2.l" id="shadow"><i class="fa fa-instagram"></i></a>
+                <a href="https://test/bb2.l" id="shadow"><i class="fa fa-instagram"></i></a>
                 <a href="mailto:almahrooqi5789@gmail.com" id="shadow"><i class="fa fa-google"></i></a>
                 <a href="https://github.com/TahaAlmahrooqi"><i class="fa fa-github" id="shadow"></i></a>
             </div>
