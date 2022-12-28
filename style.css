@@ -3,9 +3,6 @@
 * {
     margin: 0%;
     padding: 0%;
-}
-
-html {
     scroll-behavior:smooth;
 }
 
@@ -109,7 +106,7 @@ html {
 
 
 .home {
-    background-image: url("pic/images1.jpeg");
+    background-image: url("images1.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: #1a1d1e; */
@@ -154,7 +151,7 @@ html {
     width: 100%;
     height: 660px;
     /* background-color: #1a1d1e; */
-    background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("pic/images.jpeg");
+    background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("images.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -296,7 +293,7 @@ html {
 .mytools {
     height: 700px;
     width: 100%;
-    background-image: url("pic/program.jpeg");
+    background-image: url("program.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -325,14 +322,14 @@ html {
     margin-left: 100px;
     margin-right: 30px;
     border: black 2px solid;
-    background-image: url("pic/program.jpeg");
+    background-image: url("program.jpeg");
 }
 
 .mytools .tools-imgs .tool2 {
     width: 40%;
     height: 70%;
     margin-right: 100px;
-    background-image: url("pic/program.jpeg");
+    background-image: url("program.jpeg");
 
     border: black 2px solid;
     margin-left: 30px;
@@ -404,7 +401,7 @@ html {
     }
 
     .home {
-        background-image: url("pic/images1.jpeg");
+        background-image: url("images1.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         /* background-color: #1a1d1e; */
@@ -444,7 +441,7 @@ html {
     .mytools {
         height: 700px;
         width: 100%;
-        background-image: url("pic/program.jpeg");
+        background-image: url("program.jpeg");
         background-repeat: no-repeat;
         background-position: center;
         
@@ -472,7 +469,7 @@ html {
         height: 30%;
         
         border: black 2px solid;
-        background-image: url("pic/program.jpeg");
+        background-image: url("program.jpeg");
         margin-bottom: 100px;
         margin: 10px 20px 100px;
     }
@@ -481,7 +478,7 @@ html {
         width: 90%;
         height: 30%;
         border: black 2px solid;
-        background-image: url("pic/program.jpeg");
+        background-image: url("program.jpeg");
         /* padding-top: 180px; */
         margin: 0 20px;
 
